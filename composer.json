@@ -1,0 +1,16 @@
+{
+    "name": "wndrfl/pushbuggy",
+    "autoload": {
+        "psr-4": { "Wndrfl\\PushBuggy\\": "src" }
+    },
+    "description": "Laravel log push notifications via slack",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel Aguilera",
+            "email": "manuel@letsgetwonderful.com"
+        }
+    ],
+    "require": {}
+}
