@@ -12,5 +12,7 @@
             "email": "manuel@letsgetwonderful.com"
         }
     ],
-    "require": {}
+    "require": {
+      "illuminate/contracts"
+    }
 }
