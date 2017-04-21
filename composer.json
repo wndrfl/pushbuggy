@@ -13,6 +13,6 @@
         }
     ],
     "require": {
-      "illuminate/contracts"
+      "illuminate/contracts": "5.4.*"
     }
 }
