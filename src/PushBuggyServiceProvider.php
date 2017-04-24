@@ -16,7 +16,7 @@ class PushBuggyServiceProvider extends ServiceProvider
     $bots = $config->get('services.slackbots');
     foreach($bots as $bot) {
         $logger = $logger = $log->getMonolog();
-        $slackHandler = new SlackHandler($bot->token, $bot->channel, $bot->name, true, null, Logger::INFO);
+        $slackHandler = new SlackHandler($bot->token, $bot->channel, $bot->name, true, null, Logger::INFO, true, false, true);
         $logger->pushHandler($slackHandler);
     }
   }
