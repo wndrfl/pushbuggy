@@ -10,6 +10,10 @@ use Monolog\Logger;
 
 class PushBuggyServiceProvider extends ServiceProvider
 {
+  public function register() {
+    // Nothing for now
+  }
+
   public function boot(Repository $config, Log $log) {
     $config->set('services.slackbots', json_decode(env('SLACK_BOTS', '[]')));
 
